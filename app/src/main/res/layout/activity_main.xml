@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <LinearLayout
+                android:layout_width="145dp"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <EditText
+                android:id="@+id/edtNameResult"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:text="사용자 이름 "
+                android:gravity="center"
+                android:textSize="25dp"></EditText>
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp">
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/name_add"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:clickable="true"
+                    android:src="@drawable/baseline_border_color_24"
+                    app:tint="@color/black"
+                    tools:ignore="SpeakableTextPresentCheck"></ImageView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <EditText
+                android:id="@+id/edtAny"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="기타"></EditText>
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="13dp">
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/sep_add"
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:clickable="true"
+                    android:src="@drawable/baseline_border_color_24"
+                    app:tint="@color/black"
+                    tools:ignore="SpeakableTextPresentCheck"></ImageView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="55dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_home_24"
+            app:tint="@color/icon_highlight"></ImageView>
+
+        <LinearLayout
+            android:layout_width="55dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <ImageView
+            android:id="@+id/home_add"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:src="@drawable/baseline_add_box_24"
+            app:tint="@color/black"
+            tools:ignore="SpeakableTextPresentCheck"></ImageView>
+
+        <LinearLayout
+            android:layout_width="55dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <ImageView
+            android:id="@+id/home_calender"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:src="@drawable/baseline_calendar_month_24"
+            app:tint="@color/black"
+            tools:ignore="SpeakableTextPresentCheck"></ImageView>
+
+        <LinearLayout
+            android:layout_width="33dp"
+            android:layout_height="match_parent"></LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

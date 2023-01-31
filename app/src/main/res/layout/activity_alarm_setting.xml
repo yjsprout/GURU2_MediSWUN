@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Alarm_setting">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="알람설정"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:text="아침"
+                android:textSize="23dp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="165dp"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+
+            <Switch
+                android:layout_width="65dp"
+                android:layout_height="match_parent">
+            </Switch>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="17dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:text="날짜"
+                android:textSize="23dp">
+            </TextView>
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="match_parent">
+            </EditText>
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:text="부터"
+                android:textSize="23dp">
+            </TextView>
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="match_parent">
+            </EditText>
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:text="까지"
+                android:textSize="23dp">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="17dp">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent">
+            </LinearLayout>
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:text="시간"
+                android:textSize="23dp">
+            </TextView>
+            <EditText
+                android:layout_width="130dp"
+                android:layout_height="match_parent">
+            </EditText>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="match_parent">
+            </LinearLayout>
+            <Button
+                android:id="@+id/saveBT"
+                android:text="저장"
+                android:layout_width="65dp"
+                android:layout_height="match_parent">
+
+            </Button>
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent">
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/saveBT2"
+                android:text="취소"
+                android:layout_width="65dp"
+                android:layout_height="match_parent">
+
+            </Button>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="departlist">
+        <item>내과</item>
+        <item>외과</item>
+        <item>산부인과</item>
+        <item>성형외과</item>
+        <item>신경과</item>
+        <item>안과</item>
+        <item>이비인후과</item>
+        <item>정형외과</item>
+        <item>비뇨기과</item>
+        <item>피부과</item>
+        <item>흉부외과</item>
+    </string-array>
+</resources>
