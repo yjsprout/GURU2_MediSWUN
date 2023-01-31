@@ -44,7 +44,7 @@ class AlarmReceiver : BroadcastReceiver() {
         val builder =
             NotificationCompat.Builder(context, CHANNEL_ID)
                 .setSmallIcon(R.drawable.ic_launcher_background)
-                .setContentTitle("!!잠깐!!")
+                .setContentTitle("메디슌")
                 .setContentText("약 먹을 시간 알려드립니다.")
                 .setContentIntent(contentPendingIntent)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
